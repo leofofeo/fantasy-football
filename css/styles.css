@@ -17,6 +17,11 @@ body {
 	padding:5px;
 }
 
+.highlights-header:hover, .commentary-header:hover, .entertainment-header:hover {
+	background-color: #5bb263;
+	cursor: pointer;
+}
+
 .highlights-header h2, .commentary-header h2, .entertainment-header h2 {
 	color:#fff;
 }
