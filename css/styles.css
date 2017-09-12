@@ -11,17 +11,17 @@ body {
 
 
 
-.highlights-header, .commentary-header {
+.highlights-header, .commentary-header, .entertainment-header {
 	margin-bottom:40px;
 	background-color: gainsboro;
 	padding:5px;
 }
 
-.highlights-header h2, .commentary-header h2 {
+.highlights-header h2, .commentary-header h2, .entertainment-header h2 {
 	color:#fff;
 }
 
-.highlights-row, .commentary-row {
+.highlights-row, .commentary-row, .entertainment-row {
 	margin-top:10px;
 }
 
@@ -117,4 +117,23 @@ p {
 
 .next-week {
 	margin-top: 40px;
+}
+
+.entertainment-row {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.entertainment-row-item a {
+	text-decoration-style: wavy;
+	text-decoration: underline;
+	color: #5bb263;
+
+}
+
+.entertainment-row-item h3 {
+	color: #5bb263;
 }

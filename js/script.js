@@ -1,6 +1,7 @@
 $('document').ready(function(){
   $('#j-highlights-row').hide();
   $('#j-commentary-row').hide();
+  $('#j-entertainment-row').hide();
 });
 
 //Highlights display
@@ -25,5 +26,17 @@ $('.commentary-header').on('click', function(){
   else {
     $('.commentary-header').addClass('displaying');
     $('#j-commentary-row').show();
+  }
+});
+
+//Entertainment Display
+$('.entertainment-header').on('click', function(){
+  if($('.entertainment-header').hasClass('displaying')){
+    $('.entertainment-header').removeClass('displaying');
+    $('#j-entertainment-row').hide();
+  }
+  else {
+    $('.entertainment-header').addClass('displaying');
+    $('#j-entertainment-row').show();
   }
 });
