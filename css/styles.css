@@ -11,17 +11,17 @@ body {
 
 
 
-.highlights-header {
+.highlights-header, .commentary-header {
 	margin-bottom:40px;
 	background-color: gainsboro;
 	padding:5px;
 }
 
-.highlights-header h2 {
+.highlights-header h2, .commentary-header h2 {
 	color:#fff;
 }
 
-.highlights-row {
+.highlights-row, .commentary-row {
 	margin-top:10px;
 }
 
@@ -74,6 +74,10 @@ body {
 	font-weight:bold;
 }
 
+.bold {
+	font-weight:bold;
+}
+
 .table-copy {
 	width:50%;
 }
@@ -93,4 +97,24 @@ body {
 
 a {
 	text-decoration: none;
+}
+
+.container {
+	margin-top:30px!important;
+}
+
+ul {
+	list-style: none;
+}
+
+i {
+	margin-right: 20px;
+}
+
+p {
+	text-align: left;
+}
+
+.next-week {
+	margin-top: 40px;
 }
