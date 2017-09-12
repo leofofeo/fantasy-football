@@ -10,6 +10,21 @@ body {
 }
 
 
+
+.highlights-header {
+	margin-bottom:40px;
+	background-color: gainsboro;
+	padding:5px;
+}
+
+.highlights-header h2 {
+	color:#fff;
+}
+
+.highlights-row {
+	margin-top:10px;
+}
+
 .week-row {
   background-color: lightgray;
   text-align: center;
@@ -33,7 +48,49 @@ body {
   background-color: #5bb263;
 }
 
+
+
 .active:hover {
   cursor: pointer;
   background-color: #0b300e;
+}
+
+.displaying {
+	background-color: #5bb263;
+}
+
+.flex-row {
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid black;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.table-label {
+	font-weight:bold;
+}
+
+.table-copy {
+	width:50%;
+}
+
+.standings-btn {
+	background-color: #5bb263;
+	width: 160px;
+	margin:auto;
+	padding: 10px;
+	border-radius: 30px;
+}
+
+.standings-btn a{
+	color:#fff;
+	text-decoration:none;
+}
+
+a {
+	text-decoration: none;
 }
