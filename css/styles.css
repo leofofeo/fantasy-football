@@ -75,6 +75,10 @@ body {
 	padding-right: 10%;
 }
 
+.flex-row div {
+	align-self: flex-start;
+}
+
 .table-label {
 	font-weight:bold;
 }
@@ -141,4 +145,34 @@ p {
 
 .entertainment-row-item h3 {
 	color: #5bb263;
+}
+
+.table-hr {
+	font-weight:bold;
+}
+
+.results {
+	margin-top:20px;
+	padding-top:20px;
+}
+
+th {
+	padding:10px;
+	text-decoration: underline;
+}
+
+td {
+	margin:10px;
+	padding:10px;
+	padding-left:5px;
+}
+
+.results-tbl {
+	margin:auto;
+	border:1px solid gainsboro;
+}
+
+.decorated-link {
+	font-weight:bold;
+	color:#5bb263;
 }
